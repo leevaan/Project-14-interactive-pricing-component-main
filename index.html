@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="Levani Jikia" content="Levani Jikia">
+    <!-- <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials">
+    <meta http-equiv="refresh" content="30"> -->
+    <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+    <div class="div-background"></div>
+    <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required. </p>
+        <div class="pattern-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="146" height="145">
+                <g fill="none" fill-rule="evenodd" stroke="#CFD8EF"><circle cx="63" cy="82" r="62.5"/><circle cx="105" cy="41" r="40.5"/></g>
+            </svg>
+        </div>
+    </header>
+
+    <section>
+        <div class="sec-up_content">
+            <span class="after-page-views"><span class="page-views"></span> PAGEVIEWS</span>
+            <input type="range" min="0" max="80" value="40" step="1" class="my-range">
+            <div class="sec-up_month-container">
+                <span class="month">$</span>
+                <span class="after-month">/ month</span>
+            </div>
+        </div>
+        <div class="sec-middle_content">
+            <div>
+                <div>
+                    <span>Monthly Billing</span>
+                    <label class="switch">
+                        <input class="check-box" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                <span>Yearly Billing</span>
+                </div>
+                <span class="discount">25% discount</span>
+                <span class="discount discount-respo">-25%</span>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="sec-bottom_content">
+            <ul>
+                <li>Unlimited websites</li>
+                <li>100% data ownership</li>
+                <li>Email reports</li>
+            </ul>
+            <button>Start my trial</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
